@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./Highlight.module.scss"
+import styles from "./highlight.module.scss"
 
 const HighlightBGPrimary = ({ children }) => {
   return <span className={styles.highlight}>{children}</span>
