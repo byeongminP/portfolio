@@ -1,0 +1,35 @@
+@import "../../styles/_mixins.scss";
+
+@mixin highlight-text() {
+  border-radius: 1px;
+}
+
+.highlight {
+  @include highlight-text;
+  background: $highlightBG;
+  color: $highlightText;
+}
+
+.highlight-grey {
+  @include highlight-text;
+  background: lighten($highlightBGGrey, 5%);
+  color: $highlightTextGrey;
+}
+
+.highlight-yellow {
+  @include highlight-text;
+  background: lighten($highlightBGYellow, 5%);
+  color: $highlightTextYellow;
+}
+
+.highlight-orange {
+  @include highlight-text;
+  background: lighten($highlightBGOrange, 5%);
+  color: $highlightTextOrange;
+}
+
+.highlight-underline {
+  font-weight: 500;
+  color: $colorAlternate;
+  box-shadow: 0 1.5px 0 0 currentColor;
+}
