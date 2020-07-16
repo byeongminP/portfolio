@@ -1,8 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Byeong Min Park`,
+    description: `Welcome to Byeong Min Park's portfolio.`,
+    author: `@byeongminP`,
+    fullName: `Michael Park`,
+    linkedInLink: `https://www.linkedin.com/in/byeongminpark/`,
+    githubLink: `https://github.com/byeongminP`,
+    menuLinks: [
+      {
+        name: `Home`,
+        link: `/`
+      },
+      {
+        name: `About`,
+        link: `/about`
+      },
+      {
+        name: 'Contact',
+        link: '/contact'
+      },
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,6 +31,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
