@@ -6,11 +6,11 @@ const Intro = () => (
   <div className={styles.container}>
     <h1 className={styles.title}>./src/<HighlightBGPrimary>hello_world</HighlightBGPrimary></h1>
     <p>
-      Welcome to my website! As you can notice, my website is under construction. 
-      My future work will end up here, so stay in touch.
+      Welcome to my website! My name is Byeong Min (Michael), and I am currently a student at University of California, Berkeley, 
+      majoring in Electrical Engineering and Computer Science.
     </p>
     <p>
-      Meanwhile, you can take a look at my resume or check my LinkedIn page by clicking the icons above.  
+      You can take a look at my resume or check my LinkedIn page by clicking the icons above.  
     </p>
     <div className={styles.separator} />
   </div>

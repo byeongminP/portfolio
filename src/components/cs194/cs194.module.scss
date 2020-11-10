@@ -1,0 +1,32 @@
+@import "../../styles/_themes.scss";
+@import "../../styles/_mixins.scss";
+@import "../../styles/_breakpoints.scss";
+
+.container {
+  margin: 0.5rem 0;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+
+  .separator {
+    border-bottom: 1px solid $borderGrey;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+.title {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  @include breakpoint-medium-down {
+    font-size: 1.5rem;
+  }
+}
+
+.dot-separator {
+  &:after {
+    content: "\2219";
+    padding: 0 0.5rem;
+  }
+}
