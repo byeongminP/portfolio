@@ -30,6 +30,11 @@ const Cs194 = () => (
         Face Keypoint Detection with Neural Networks
       </a>
     </p>
+    <p>
+      <strong>Project 5</strong> - <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa20/upload/files/proj5A/cs194-26-adl/michael_park_proj5a/">
+        Image Warping and Mosaicing
+      </a>
+    </p>
     <div className={styles.separator} />
   </div>
 )

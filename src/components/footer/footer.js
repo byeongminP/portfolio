@@ -5,7 +5,7 @@ import styles from "./footer.module.scss"
 const Footer = ({ siteMetadata }) => (
   <footer className={styles.footer}>
     <div>
-      <span>© Copyright 2020 {siteMetadata.fullName}</span>
+      <span>© Copyright 2021 {siteMetadata.fullName}</span>
     </div>
   </footer>
 )
